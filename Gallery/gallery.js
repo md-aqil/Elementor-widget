@@ -14,6 +14,7 @@ $(document).ready(function() {
 		//'<img src="' + $(this).attr('src') + '" alt="' + $(this).attr('alt') + '">'
 		arrayImages.push(attrSrc);
 	});
+	
 	var firstItem = arrayImages[0];// taking first item in array
 	var lastItem = arrayImages[arrayImages.length - 1];// taking last item in array
 	var htmlImg1 = '<div class="container_img"><div class="closebtn">&#x2715;</div><div class="con-ac-ar"><span class="previousImage">&#x276C;</span><img class="activePopUpImg" src="'
